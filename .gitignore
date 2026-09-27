@@ -40,3 +40,6 @@ out/
 
 # Local Paper test server - never commit
 run/
+
+# Server dump from Tomo: jars, Discord logs, CoinsEngine data.db with player UUIDs/names - never commit
+JayPlugins/

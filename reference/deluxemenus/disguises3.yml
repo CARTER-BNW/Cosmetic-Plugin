@@ -1,0 +1,222 @@
+menu_title: 'Disguise Menu ● Page 3/3'
+size: 54
+
+open_requirement:
+  requirements:
+    access:
+      type: has permission
+      permission: 'libsdisguises.undisguise'
+      output: 'yes'
+items:
+  cod:
+    material: cod
+    slot: 10
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.cod.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lCod'
+    lore:
+    - ''
+    - '&7&oAccess to the Cod Disguise!'
+    - ''
+  codno:
+    material: red_stained_glass_pane
+    slot: 10
+    priority: 2
+    display_name: '&c&lCod'
+    lore:
+    - ''
+    - '&7&oAccess to the Cod Disguise!'
+    - ''
+    - '&4[No Access]'
+  pufferfish:
+    material: pufferfish
+    slot: 11
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.pufferfish.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lPufferfish'
+    lore:
+    - ''
+    - '&7&oAccess to the Pufferfish Disguise!'
+    - ''
+  pufferfishno:
+    material: red_stained_glass_pane
+    slot: 11
+    priority: 2
+    display_name: '&c&lPufferfish'
+    lore:
+    - ''
+    - '&7&oAccess to the Pufferfish Disguise!'
+    - ''
+    - '&4[No Access]'
+  axolotl:
+    material: hdb-47413
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.axolotl.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lAxolotl'
+    lore:
+    - ''
+    - '&7&oAccess to the Axolotl Disguise!'
+    - ''
+  axolotlno:
+    material: red_stained_glass_pane
+    slot: 12
+    priority: 2
+    display_name: '&c&lAxolotl'
+    lore:
+    - ''
+    - '&7&oAccess to the Axolotl Disguise!'
+    - ''
+    - '&4[No Access]'
+  allay:
+    material: hdb-61373
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.allay.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lAllay'
+    lore:
+    - ''
+    - '&7&oAccess to the Allay Disguise!'
+    - ''
+  allayno:
+    material: red_stained_glass_pane
+    slot: 13
+    priority: 2
+    display_name: '&c&lAllay'
+    lore:
+    - ''
+    - '&7&oAccess to the Allay Disguise!'
+    - ''
+    - '&4[No Access]'
+  frog:
+    material: hdb-51512
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.frog.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lFrog'
+    lore:
+    - ''
+    - '&7&oAccess to the Frog Disguise!'
+    - ''
+  frogno:
+    material: red_stained_glass_pane
+    slot: 14
+    priority: 2
+    display_name: '&c&lFrog'
+    lore:
+    - ''
+    - '&7&oAccess to the Frog Disguise!'
+    - ''
+    - '&4[No Access]'
+  warden:
+    material: hdb-60171
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.warden.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lWarden'
+    lore:
+    - ''
+    - '&7&oAccess to the SaWardenlmon Disguise!'
+    - ''
+  wardenno:
+    material: red_stained_glass_pane
+    slot: 15
+    priority: 2
+    display_name: '&c&lWarden'
+    lore:
+    - ''
+    - '&7&oAccess to the Warden Disguise!'
+    - ''
+    - '&4[No Access]'
+  tadpole:
+    material: hdb-51348
+    slot: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.tadpole.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lTadpole'
+    lore:
+    - ''
+    - '&7&oAccess to the Tadpole Disguise!'
+    - ''
+  tadpoleno:
+    material: red_stained_glass_pane
+    slot: 16
+    priority: 2
+    display_name: '&c&lTadpole'
+    lore:
+    - ''
+    - '&7&oAccess to the Tadpole Disguise!'
+    - ''
+    - '&4[No Access]'
+  ocelot:
+    material: hdb-634
+    slot: 19
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.ocelot.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lOcelot'
+    lore:
+    - ''
+    - '&7&oAccess to the Ocelot Disguise!'
+    - ''
+  ocelotno:
+    material: red_stained_glass_pane
+    slot: 19
+    priority: 2
+    display_name: '&c&lOcelot'
+    lore:
+    - ''
+    - '&7&oAccess to the Ocelot Disguise!'
+    - ''
+    - '&4[No Access]'
+  blue:
+    material: BLUE_STAINED_GLASS_PANE
+    slots: [0, 8, 45, 53]
+    display_name: '&l'
+  light_blue:
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots: [1-7, 9, 17, 18, 26, 27, 35, 36, 44, 46-48, 50-52]
+    display_name: '&l'
+  back:
+    material: barrier
+    slot: 49
+    display_name: '&c&lBack'
+    click_commands:
+    - "[openguimenu] perks"
+  previous_page:
+    material: hdb-9874
+    slot: 45
+    display_name: 'Previous Page'
+    click_commands:
+    - "[openguimenu] disguises2"

@@ -1,0 +1,733 @@
+menu_title: 'Disguise Menu ● Page 2/3'
+size: 54
+
+open_requirement:
+  requirements:
+    access:
+      type: has permission
+      permission: 'libsdisguises.undisguise'
+      output: 'yes'
+items:
+  silverfish:
+    material: hdb-3936
+    slot: 10
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.silverfish.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lSilverfish'
+    lore:
+    - ''
+    - '&7&oAccess to the Silverfish Disguise!'
+    - ''
+    - '&4[No Access]'
+  silverfishno:
+    material: red_stained_glass_pane
+    slot: 10
+    priority: 2
+    display_name: '&c&lSilverfish'
+    lore:
+    - ''
+    - '&7&oAccess to the Silverfish Disguise!'
+    - ''
+    - '&4[No Access]'
+  skeleton:
+    material: skeleton_skull
+    slot: 11
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.skeleton.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lSkeleton'
+    lore:
+    - ''
+    - '&7&oAccess to the Skeleton Disguise!'
+    - ''
+  skeletonno:
+    material: red_stained_glass_pane
+    slot: 11
+    priority: 2
+    display_name: '&c&lSkeleton'
+    lore:
+    - ''
+    - '&7&oAccess to the Skeleton Disguise!'
+    - ''
+    - '&4[No Access]'
+  slime:
+    material: hdb-30399
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.slime.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lSlime'
+    lore:
+    - ''
+    - '&7&oAccess to the Slime Disguise!'
+    - ''
+  slimeno:
+    material: red_stained_glass_pane
+    slot: 12
+    priority: 2
+    display_name: '&c&lSlime'
+    lore:
+    - ''
+    - '&7&oAccess to the Slime Disguise!'
+    - ''
+    - '&4[No Access]'
+  spider:
+    material: hdb-63921
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.spider.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lSpider'
+    lore:
+    - ''
+    - '&7&oAccess to the Spider Disguise!'
+    - ''
+  spiderno:
+    material: red_stained_glass_pane
+    slot: 13
+    priority: 2
+    display_name: '&c&lSpider'
+    lore:
+    - ''
+    - '&7&oAccess to the Spider Disguise!'
+    - ''
+    - '&4[No Access]'
+  zombie:
+    material: zombie_head
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.zombie.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lZombie'
+    lore:
+    - ''
+    - '&7&oAccess to the Zombie Disguise!'
+    - ''
+  zombieno:
+    material: red_stained_glass_pane
+    slot: 14
+    priority: 2
+    display_name: '&c&lZombie'
+    lore:
+    - ''
+    - '&7&oAccess to the Zombie Disguise!'
+    - ''
+    - '&4[No Access]'
+  blaze:
+    material: hdb-47778
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.blaze.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lBlaze'
+    lore:
+    - ''
+    - '&7&oAccess to the Blaze Disguise!'
+    - ''
+  blazeno:
+    material: red_stained_glass_pane
+    slot: 15
+    priority: 2
+    display_name: '&c&lBlaze'
+    lore:
+    - ''
+    - '&7&oAccess to the Blaze Disguise!'
+    - ''
+    - '&4[No Access]'
+  magmacube:
+    material: hdb-27398
+    slot: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.magma_cube.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lMagma Cube'
+    lore:
+    - ''
+    - '&7&oAccess to the Magma Cube Disguise!'
+    - ''
+  magmacubeno:
+    material: red_stained_glass_pane
+    slot: 16
+    priority: 2
+    display_name: '&c&lMagma Cube'
+    lore:
+    - ''
+    - '&7&oAccess to the Magma Cube Disguise!'
+    - ''
+    - '&4[No Access]'
+  witch:
+    material: hdb-71725
+    slot: 19
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.witch.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lWitch'
+    lore:
+    - ''
+    - '&7&oAccess to the Witch Disguise!'
+    - ''
+  witchno:
+    material: red_stained_glass_pane
+    slot: 19
+    priority: 2
+    display_name: '&c&lWitch'
+    lore:
+    - ''
+    - '&7&oAccess to the Witch Disguise!'
+    - ''
+    - '&4[No Access]'
+  zombievillager:
+    material: hdb-32951
+    slot: 20
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.zombie_villager.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lZombie Villager'
+    lore:
+    - ''
+    - '&7&oAccess to the Zombie Villager Disguise!'
+    - ''
+  zombievillagerno:
+    material: red_stained_glass_pane
+    slot: 20
+    priority: 2
+    display_name: '&c&lZombie Villager'
+    lore:
+    - ''
+    - '&7&oAccess to the Zombie Villager Disguise!'
+    - ''
+    - '&4[No Access]'
+  vex:
+    material: hdb-68475
+    slot: 21
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.vex.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lVex'
+    lore:
+    - ''
+    - '&7&oAccess to the Vex Disguise!'
+    - ''
+  vexno:
+    material: red_stained_glass_pane
+    slot: 21
+    priority: 2
+    display_name: '&c&lVex'
+    lore:
+    - ''
+    - '&7&oAccess to the Vex Disguise!'
+    - ''
+    - '&4[No Access]'
+  skeletonhorse:
+    material: hdb-6013
+    slot: 22
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.skeleton_horse.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lSkeleton Horse'
+    lore:
+    - ''
+    - '&7&oAccess to the Skeleton Horse Disguise!'
+    - ''
+  skeletonhorseno:
+    material: red_stained_glass_pane
+    slot: 22
+    priority: 2
+    display_name: '&c&lSkeleton Horse'
+    lore:
+    - ''
+    - '&7&oAccess to the Skeleton Horse Disguise!'
+    - ''
+    - '&4[No Access]'
+  endermite:
+    material: hdb-2737
+    slot: 23
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.endermite.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lEndermite'
+    lore:
+    - ''
+    - '&7&oAccess to the Endermite Disguise!'
+    - ''
+  endermiteno:
+    material: red_stained_glass_pane
+    slot: 23
+    priority: 2
+    display_name: '&c&lEndermite'
+    lore:
+    - ''
+    - '&7&oAccess to the Endermite Disguise!'
+    - ''
+    - '&4[No Access]'
+  evoker:
+    material: hdb-71730
+    slot: 24
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.evoker.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lEvoker'
+    lore:
+    - ''
+    - '&7&oAccess to the Evoker Disguise!'
+    - ''
+  evokerno:
+    material: red_stained_glass_pane
+    slot: 24
+    priority: 2
+    display_name: '&c&lEvoker'
+    lore:
+    - ''
+    - '&7&oAccess to the Evoker Disguise!'
+    - ''
+    - '&4[No Access]'
+  guardian:
+    material: hdb-3135
+    slot: 25
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.guardian.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lGuardian'
+    lore:
+    - ''
+    - '&7&oAccess to the Guardian Disguise!'
+    - ''
+  guardianno:
+    material: red_stained_glass_pane
+    slot: 25
+    priority: 2
+    display_name: '&c&lGuardian'
+    lore:
+    - ''
+    - '&7&oAccess to the Guardian Disguise!'
+    - ''
+    - '&4[No Access]'
+  vindicator:
+    material: hdb-28323
+    slot: 28
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.vindicator.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lVindicator'
+    lore:
+    - ''
+    - '&7&oAccess to the Vindicator Disguise!'
+    - ''
+  vindicatorno:
+    material: red_stained_glass_pane
+    slot: 28
+    priority: 2
+    display_name: '&c&lVindicator'
+    lore:
+    - ''
+    - '&7&oAccess to the Vindicator Disguise!'
+    - ''
+    - '&4[No Access]'
+  husk:
+    material: hdb-41306
+    slot: 29
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.husk.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lHusk'
+    lore:
+    - ''
+    - '&7&oAccess to the Husk Disguise!'
+    - ''
+  huskno:
+    material: red_stained_glass_pane
+    slot: 29
+    priority: 2
+    display_name: '&c&lHusk'
+    lore:
+    - ''
+    - '&7&oAccess to the Husk Disguise!'
+    - ''
+    - '&4[No Access]'
+  stray:
+    material: hdb-22401
+    slot: 30
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.stray.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lStray'
+    lore:
+    - ''
+    - '&7&oAccess to the Stray Disguise!'
+    - ''
+  strayno:
+    material: red_stained_glass_pane
+    slot: 30
+    priority: 2
+    display_name: '&c&lStray'
+    lore:
+    - ''
+    - '&7&oAccess to the Stray Disguise!'
+    - ''
+    - '&4[No Access]'
+  shulkerbullet:
+    material: hdb-12823
+    slot: 31
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.shulker_bullet.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lShulker Bullet'
+    lore:
+    - ''
+    - '&7&oAccess to the Shulker Bullet Disguise!'
+    - ''
+  shulkerbulletno:
+    material: red_stained_glass_pane
+    slot: 31
+    priority: 2
+    display_name: '&c&lShulker Bullet'
+    lore:
+    - ''
+    - '&7&oAccess to the Shulker Bullet Disguise!'
+    - ''
+    - '&4[No Access]'
+  llamaspit:
+    material: lime_stained_glass_pane
+    slot: 32
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.llama_spit.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lLlama Spit'
+    lore:
+    - ''
+    - '&7&oAccess to the Llama Spit Disguise!'
+    - ''
+  llamaspitno:
+    material: red_stained_glass_pane
+    slot: 32
+    priority: 2
+    display_name: '&c&lLlama Spit'
+    lore:
+    - ''
+    - '&7&oAccess to the Llama Spit Disguise!'
+    - ''
+    - '&4[No Access]'
+  spectralarrow:
+    material: spectral_arrow
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.spectral_arrow.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lSpectral Arrow'
+    lore:
+    - ''
+    - '&7&oAccess to the Spectral Arrow Disguise!'
+    - ''
+  spectralarrowno:
+    material: red_stained_glass_pane
+    slot: 33
+    priority: 2
+    display_name: '&c&lSpectral Arrow'
+    lore:
+    - ''
+    - '&7&oAccess to the Spectral Arrow Disguise!'
+    - ''
+    - '&4[No Access]'
+  arrow:
+    material: arrow
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.arrow.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lArrow'
+    lore:
+    - ''
+    - '&7&oAccess to the Arrow Disguise!'
+    - ''
+  arrowno:
+    material: red_stained_glass_pane
+    slot: 33
+    priority: 2
+    display_name: '&c&lArrow'
+    lore:
+    - ''
+    - '&7&oAccess to the Arrow Disguise!'
+    - ''
+    - '&4[No Access]'
+  tippedarrow:
+    material: tipped_arrow
+    slot: 34
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.tipped_arrow.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lTipped Arrow'
+    lore:
+    - ''
+    - '&7&oAccess to the Tipped Arrow Disguise!'
+    - ''
+  tippedarrowno:
+    material: red_stained_glass_pane
+    slot: 34
+    priority: 2
+    display_name: '&c&lTipped Arrow'
+    lore:
+    - ''
+    - '&7&oAccess to the Tipped Arrow Disguise!'
+    - ''
+    - '&4[No Access]'
+  witherskull:
+    material: wither_skeleton_skull
+    slot: 37
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.wither_skull.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lWither Skull'
+    lore:
+    - ''
+    - '&7&oAccess to the Wither Skull Disguise!'
+    - ''
+  witherskullno:
+    material: red_stained_glass_pane
+    slot: 37
+    priority: 2
+    display_name: '&c&lWither Skull'
+    lore:
+    - ''
+    - '&7&oAccess to the Wither Skull Disguise!'
+    - ''
+    - '&4[No Access]'
+  phantom:
+    material: hdb-17931
+    slot: 38
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.phantom.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lPhantom'
+    lore:
+    - ''
+    - '&7&oAccess to the Phantom Disguise!'
+    - ''
+  phantomno:
+    material: red_stained_glass_pane
+    slot: 38
+    priority: 2
+    display_name: '&c&lPhantom'
+    lore:
+    - ''
+    - '&7&oAccess to the Phantom Disguise!'
+    - ''
+    - '&4[No Access]'
+  drowned:
+    material: hdb-21521
+    slot: 39
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.drowned.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lDrowned'
+    lore:
+    - ''
+    - '&7&oAccess to the Drowned Disguise!'
+    - ''
+  drownedno:
+    material: red_stained_glass_pane
+    slot: 39
+    priority: 2
+    display_name: '&c&lDrowned'
+    lore:
+    - ''
+    - '&7&oAccess to the Drowned Disguise!'
+    - ''
+    - '&4[No Access]'
+  dolphin:
+    material: hdb-16799
+    slot: 40
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.dolphin.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lDolphin'
+    lore:
+    - ''
+    - '&7&oAccess to the Dolphin Disguise!'
+    - ''
+  dolphinno:
+    material: red_stained_glass_pane
+    slot: 40
+    priority: 2
+    display_name: '&c&lDolphin'
+    lore:
+    - ''
+    - '&7&oAccess to the Dolphin Disguise!'
+    - ''
+    - '&4[No Access]'
+  tropicalfish:
+    material: tropical_fish
+    slot: 41
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.tropical_fish.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&&alTropical Fish'
+    lore:
+    - ''
+    - '&7&oAccess to the Tropical Fish Disguise!'
+    - ''
+  tropicalfishno:
+    material: red_stained_glass_pane
+    slot: 41
+    priority: 2
+    display_name: '&c&lTropical Fish'
+    lore:
+    - ''
+    - '&7&oAccess to the Tropical Fish Disguise!'
+    - ''
+    - '&4[No Access]'
+  salmon:
+    material: salmon
+    slot: 42
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.salmon.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lSalmon'
+    lore:
+    - ''
+    - '&7&oAccess to the Salmon Disguise!'
+    - ''
+  salmonno:
+    material: red_stained_glass_pane
+    slot: 42
+    priority: 2
+    display_name: '&c&lSalmon'
+    lore:
+    - ''
+    - '&7&oAccess to the Salmon Disguise!'
+    - ''
+    - '&4[No Access]'
+  turtle:
+    material: hdb-17929
+    slot: 43
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.turtle.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lTurtle'
+    lore:
+    - ''
+    - '&7&oAccess to the Turtle Disguise!'
+    - ''
+  turtleno:
+    material: red_stained_glass_pane
+    slot: 43
+    priority: 2
+    display_name: '&c&lTurtle'
+    lore:
+    - ''
+    - '&7&oAccess to the Turtle Disguise!'
+    - ''
+    - '&4[No Access]'
+  blue:
+    material: BLUE_STAINED_GLASS_PANE
+    slots: [0, 8, 53]
+    display_name: '&l'
+  light_blue:
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots: [1-7, 9, 17, 18, 26, 27, 35, 36, 44, 46-48, 50-52]
+    display_name: '&l'
+  back:
+    material: barrier
+    slot: 49
+    display_name: '&c&lBack'
+    click_commands:
+    - "[openguimenu] perks"
+  next_page:
+    material: hdb-9871
+    slot: 53
+    display_name: '&a&lNext Page'
+    click_commands:
+    - "[openguimenu] disguises3"
+  previous_page:
+    material: hdb-9874
+    slot: 45
+    display_name: '&a&lPrevious Page'
+    click_commands:
+    - "[openguimenu] disguises"

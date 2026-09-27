@@ -1,0 +1,380 @@
+menu_title: '&9Underline Coloured Tags Menu'
+size: 45
+update_interval: 1
+
+items:
+  filler:
+    material: light_blue_stained_glass_pane
+    slots: [0-3, 5-8, 9, 17-18, 26-27, 35, 37-43]
+    display_name: '&l'
+  back:
+    material: COMPASS
+    slot: 36
+    display_name: '&6Back'
+    click_commands:
+    - "[openguimenu] colourtags"
+  exit:
+    material: IRON_DOOR
+    slot: 44
+    display_name: '&cExit'
+    click_commands:
+    - '[close]'
+  head:
+    material: head-%player_name%
+    display_name: '&6%player_name%'
+    lore:
+    - '&fPoints: &d%votingplugin_points%'
+    slot: 4
+    update: true
+  black:
+    material: name_tag
+    display_name: '&0&nBlack Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 10
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% black 1 u'
+  darkblue:
+    material: name_tag
+    display_name: '&1&nDark Blue Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 11
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% dark_blue 1 u'
+  darkgreen:
+    material: name_tag
+    display_name: '&2&nDark Green Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 12
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% dark_green 1 u'
+  darkaqua:
+    material: name_tag
+    display_name: '&3&nDark Aqua Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 13
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% dark_aqua 1 u'
+  darkred:
+    material: name_tag
+    display_name: '&4&nDark Red Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 14
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% dark_red 1 u'
+  darkpurple:
+    material: name_tag
+    display_name: '&5&nDark Purple Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 15
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% dark_purple 1 u'
+  gold:
+    material: name_tag
+    display_name: '&6&nGold Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 16
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% gold 1 u'
+  gray:
+    material: name_tag
+    display_name: '&7&nGray Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 19
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% gray 1 u'
+  darkgray:
+    material: name_tag
+    display_name: '&8&nDark Gray Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 20
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% dark_gray 1 u'
+  blue:
+    material: name_tag
+    display_name: '&9&nBlue Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 21
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% blue 1 u'
+  green:
+    material: name_tag
+    display_name: '&a&nGreen Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 22
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% green 1 u'
+  aqua:
+    material: name_tag
+    display_name: '&b&nAqua Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 23
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% aqua 1 u'
+  red:
+    material: name_tag
+    display_name: '&c&nRed Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 24
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% red 1 u'
+  lightpurple:
+    material: name_tag
+    display_name: '&d&nLight Purple Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 25
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% light_purple 1 u'
+  yellow:
+    material: name_tag
+    display_name: '&e&nYellow Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 28
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% yellow 1 u'
+  white:
+    material: name_tag
+    display_name: '&f&nWhite Tag'
+    lore:
+    - '&fCost: &d10'
+    slot: 29
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%votingplugin_points% >= 10'
+          deny_commands:
+          - '[message] &cYou do not have enough vote points to buy this!'
+        inventory:
+          type: string equals
+          input: '%player_has_empty_slot%'
+          output: 'yes' # Put 'yes' to make sure player has an empty slot, otherwise put 'no' to make sure the player has a full inventory
+          deny_commands:
+          - '[message] &cYour inventory is full!'   
+    click_commands:
+    - '[console] av User %player_name% RemovePoints 10'
+    - '[console] ct give %player_name% white 1 u'

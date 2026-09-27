@@ -1,0 +1,27 @@
+name: CosmeticPlugin
+version: '${version}'
+main: ${main}
+api-version: '26.2'
+description: Cosmetic shop GUI paid with physical SkyCoin items, with a store-agnostic delivery command.
+author: xJBACx
+softdepend: [LuckPerms, PlaceholderAPI]
+libraries:
+  - '${sqliteJdbc}'
+commands:
+  skycoins:
+    description: SkyCoins wallet and admin commands
+    usage: '/<command> balance|claim|give|take|convertlegacy|inspect'
+  cosmeticshop:
+    description: Cosmetic shop admin commands
+    usage: '/<command> reload|list|info|give|revoke'
+    permission: cosmeticplugin.admin
+permissions:
+  cosmeticplugin.use:
+    description: Open the cosmetic shop
+    default: true
+  cosmeticplugin.admin:
+    description: Cosmetic shop admin commands
+    default: op
+  cosmeticplugin.coins.admin:
+    description: Give or take SkyCoins and convert legacy coins for other players
+    default: op

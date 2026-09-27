@@ -1,0 +1,46 @@
+categories:
+  name_colours:
+    name: "<green><bold>Name Colours"
+    icon: NAME_TAG
+    hub-slot: 11
+    sort: 1
+    items:
+      namecolour_dark_green:
+        name: "<dark_green>Dark Green"
+        lore: ["<gray>Access to the Dark Green name colour"]
+        price: 150
+        permissions: [namecolor.color.darkgreen]
+        use-commands:
+          player: ["namecolor darkgreen"]
+        sort: 20
+      namecolour_red:
+        name: "<red>Red"
+        price: 999999
+        permission: namecolor.color.red
+        sort: 10
+      namecolour_display:
+        name: "<gold>Gold (display only)"
+      bad_price:
+        name: "broken"
+        price: -5
+        permissions: [x.y]
+      no_way_to_deliver:
+        name: "broken too"
+        price: 10
+  colour_tags:
+    name: "<gold>Tags"
+    icon: "head:eyJ0ZXh0dXJlcyI6e319"
+    sort: 0
+    items:
+      ctag_black:
+        name: "<black>Black Tag"
+        icon: not_a_material
+        price: 10
+        purchase-commands:
+          console: "ct give %player% black 1"
+      namecolour_red:
+        name: "duplicate id"
+        price: 5
+        permissions: [dup]
+  Bad-Id:
+    name: "invalid category id"

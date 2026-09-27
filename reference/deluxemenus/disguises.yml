@@ -1,0 +1,999 @@
+menu_title: 'Disguise Menu ● Page 1/3'
+size: 54
+
+open_requirement:
+  requirements:
+    access:
+      type: has permission
+      permission: 'libsdisguises.undisguise'
+      output: 'yes'
+items:
+  babymobpack:
+    material: chest
+    slot: 10
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.chicken.setbaby'
+        access1:
+          type: has permission
+          permission: 'libsdisguises.disguise.cow.setbaby'
+        access2:
+          type: has permission
+          permission: 'libsdisguises.disguise.mushroom_cow.setbaby'
+        access3:
+          type: has permission
+          permission: 'libsdisguises.disguise.ocelot.setbaby'
+        access4:
+          type: has permission
+          permission: 'libsdisguises.disguise.pig.setbaby'
+        access5:
+          type: has permission
+          permission: 'libsdisguises.disguise.sheep.setbaby'
+        access6:
+          type: has permission
+          permission: 'libsdisguises.disguise.villager.setbaby'
+        acces7:
+          type: has permission
+          permission: 'libsdisguises.disguise.wolf.setbaby'
+        access8:
+          type: has permission
+          permission: 'libsdisguises.disguise.donkey.setbaby'
+        access9:
+          type: has permission
+          permission: 'libsdisguises.disguise.horse.setbaby'
+        access10:
+          type: has permission
+          permission: 'libsdisguises.disguise.mule.setbaby'
+        access11:
+          type: has permission
+          permission: 'libsdisguises.disguise.rabbit.setbaby'
+        access12:
+          type: has permission
+          permission: 'libsdisguises.disguise.polarbear.setbaby'
+        access13:
+          type: has permission
+          permission: 'libsdisguises.disguise.llama.setbaby'
+    display_name: '&a&lBaby Mobs Pack'
+    lore:
+    - ''
+    - '&7&oAccess to the disguise option that'
+    - '&7&oallows you to disguise as baby version' 
+    - '&7&oof the following mobs:'
+    lore:
+    - ''
+    - '&f• &7&oChicken'
+    - '&f• &7&oCow'
+    - '&f• &7&oDonkey'
+    - '&f• &7&oHorse'
+    - '&f• &7&oMule'
+    - '&f• &7&oCow'
+    - '&f• &7&oOcelot'
+    - '&f• &7&oPig'
+    - '&f• &7&oSheep'
+    - '&f• &7&oVillager'
+    - '&f• &7&oWolf'
+    - '&f• &7&oRabbit'
+    - '&f• &7&oPolar Bear'
+    - '&f• &7&oLlama'
+    - ''
+  babymobpackno:
+    material: red_stained_glass_pane
+    slot: 10
+    priority: 2
+    display_name: '&c&lBaby Mobs Pack'
+    lore:
+    - ''
+    - '&7&oAccess to the disguise option that'
+    - '&7&oallows you to disguise as baby version' 
+    - '&7&oof the following mobs:'
+    lore:
+    - ''
+    - '&f• &7&oChicken'
+    - '&f• &7&oCow'
+    - '&f• &7&oDonkey'
+    - '&f• &7&oHorse'
+    - '&f• &7&oMule'
+    - '&f• &7&oCow'
+    - '&f• &7&oOcelot'
+    - '&f• &7&oPig'
+    - '&f• &7&oSheep'
+    - '&f• &7&oVillager'
+    - '&f• &7&oWolf'
+    - '&f• &7&oRabbit'
+    - '&f• &7&oPolar Bear'
+    - '&f• &7&oLlama'
+    - ''
+    - '&4[No Access]'
+  extradisguisepack:
+    material: chest
+    slot: 11
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.creeper.setPowered'
+        access2:
+          type: has permission
+          permission: 'libsdisguises.disguise.slime.setSize'
+        access3:
+          type: has permission
+          permission: 'libsdisguises.options.disguise.slime.setSize.1.2.3'
+        access4:
+          type: has permission
+          permission: 'libsdisguises.disguise.magmacube.setSize'
+        access5:
+          type: has permission
+          permission: 'libsdisguises.options.disguise.magma_cube.setSize.1.2.3'
+        access6:
+          type: has permission
+          permission: 'libsdisguises.disguise.cat.setType'
+        access7:
+          type: has permission
+          permission: 'libsdisguises.disguise.pig.setSaddled'
+        access8:
+          type: has permission
+          permission: 'libsdisguises.disguise.enderman.setItemInMainHand'
+        access9:
+          type: has permission
+          permission: 'libsdisguises.disguise.villager.setProfession'
+        access10:
+          type: has permission
+          permission: 'libsdisguises.disguise.axolotl.setVariant'
+    display_name: '&a&lExtra Disguise Pack'
+    lore:
+    - ''
+    - '&7&oGives you the options to:'
+    lore:
+    - ''
+    - '&f• &7&oTransform into a charged Creeper.'
+    - '&f• &7&oDetermine the size of the Slime / Magma Cube'
+    - '&7&oyou are disguised as.'
+    - '&f• &7&oChoose Villager Occupation.'
+    - '&f• &7&oDisguise as a Saddled Pig'
+    - '&f• &7&oChoose Cat Type'
+    - '&f• &7&oDisguise as an Enderman holding a block'
+    - ''
+  extradisguisepackno:
+    material: red_stained_glass_pane
+    slot: 11
+    priority: 2
+    display_name: '&c&lExtra Disguise Pack'
+    lore:
+    - ''
+    - '&7&oGives you the options to:'
+    lore:
+    - ''
+    - '&f• &7&oTransform into a charged Creeper.'
+    - '&f• &7&oDetermine the size of the Slime / Magma Cube'
+    - '&7&oyou are disguised as.'
+    - '&f• &7&oChoose Villager Occupation.'
+    - '&f• &7&oDisguise as a Saddled Pig'
+    - '&f• &7&oChoose Cat Type'
+    - '&f• &7&oDisguise as an Enderman holding a block'
+    - ''
+    - '&4[No Access]'
+  friendlymobspack:
+    material: chest
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.chicken.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access1:
+          type: has permission
+          permission: 'libsdisguises.disguise.cat.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access2:
+          type: has permission
+          permission: 'libsdisguises.disguise.cow.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access3:
+          type: has permission
+          permission: 'libsdisguises.disguise.mushroom_cow.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access4:
+          type: has permission
+          permission: 'libsdisguises.disguise.ocelot.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access5:
+          type: has permission
+          permission: 'libsdisguises.disguise.pig.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access6:
+          type: has permission
+          permission: 'libsdisguises.disguise.sheep.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access7:
+          type: has permission
+          permission: 'libsdisguises.disguise.squid.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access8:
+          type: has permission
+          permission: 'libsdisguises.disguise.villager.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access9:
+          type: has permission
+          permission: 'libsdisguises.disguise.wolf.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access10:
+          type: has permission
+          permission: 'libsdisguises.disguise.donkey.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access11:
+          type: has permission
+          permission: 'libsdisguises.disguise.horse.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access12:
+          type: has permission
+          permission: 'libsdisguises.disguise.mule.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access13:
+          type: has permission
+          permission: 'libsdisguises.disguise.snowman.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lFriendly Mobs Pack'
+    lore:
+    - ''
+    - '&7&oUnlock the ability to Disguise!' 
+    - '&7&oas the following mobs:'
+    lore:
+    - ''
+    - '&f• &7&oChicken'
+    - '&f• &7&oCow'
+    - '&f• &7&oMushroom Cow'
+    - '&f• &7&oDonkey'
+    - '&f• &7&oHorse'
+    - '&f• &7&oMule'
+    - '&f• &7&oCat'
+    - '&f• &7&oSnowman'
+    - '&f• &7&oOcelot'
+    - '&f• &7&oPig'
+    - '&f• &7&oSheep'
+    - '&f• &7&oSquid'
+    - '&f• &7&oVillager'
+    - '&f• &7&oWolf'
+    - ''
+  friendlymobspackno:
+    material: red_stained_glass_pane
+    slot: 12
+    priority: 2
+    display_name: '&c&lFriendly Mobs Pack'
+    lore:
+    - ''
+    - '&7&oUnlock the ability to Disguise!' 
+    - '&7&oas the following mobs:'
+    lore:
+    - ''
+    - '&f• &7&oChicken'
+    - '&f• &7&oCow'
+    - '&f• &7&oMushroom Cow'
+    - '&f• &7&oDonkey'
+    - '&f• &7&oHorse'
+    - '&f• &7&oMule'
+    - '&f• &7&oCat'
+    - '&f• &7&oSnowman'
+    - '&f• &7&oOcelot'
+    - '&f• &7&oPig'
+    - '&f• &7&oSheep'
+    - '&f• &7&oSquid'
+    - '&f• &7&oVillager'
+    - '&f• &7&oWolf'
+    - ''
+    - '&4[No Access]'
+  badmobspack:
+    material: chest
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.cave_spider.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access1:
+          type: has permission
+          permission: 'libsdisguises.disguise.creeper.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access2:
+          type: has permission
+          permission: 'libsdisguises.disguise.enderman.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access3:
+          type: has permission
+          permission: 'libsdisguises.disguise.zombified_piglin.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access4:
+          type: has permission
+          permission: 'libsdisguises.disguise.silverfish.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access5:
+          type: has permission
+          permission: 'libsdisguises.disguise.skeleton.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access6:
+          type: has permission
+          permission: 'libsdisguises.disguise.slime.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access7:
+          type: has permission
+          permission: 'libsdisguises.disguise.spider.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access8:
+          type: has permission
+          permission: 'libsdisguises.disguise.zombie.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access9:
+          type: has permission
+          permission: 'libsdisguises.disguise.blaze.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access10:
+          type: has permission
+          permission: 'libsdisguises.disguise.magma_cube.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access11:
+          type: has permission
+          permission: 'libsdisguises.disguise.witch.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+        access12:
+          type: has permission
+          permission: 'libsdisguises.disguise.zombie_villager.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lBad Mobs Pack'
+    lore:
+    - ''
+    - '&7&oUnlock the ability to Disguise!' 
+    - '&7&oas the following mobs:'
+    lore:
+    - ''
+    - '&f• &7&oCave Spider'
+    - '&f• &7&oCreeper'
+    - '&f• &7&oEnderman'
+    - '&f• &7&oZombified Piglin'
+    - '&f• &7&oSilverfish'
+    - '&f• &7&oSkeleton'
+    - '&f• &7&oSlime'
+    - '&f• &7&oSpider'
+    - '&f• &7&oZombie'
+    - '&f• &7&oBlaze'
+    - '&f• &7&oSilverfish'
+    - '&f• &7&oMagma Cube'
+    - '&f• &7&oWitch'
+    - '&f• &7&oZombie Villager'
+    - ''
+  badmobspackno:
+    material: red_stained_glass_pane
+    slot: 13
+    priority: 2
+    display_name: '&c&lBad Mobs Pack'
+    lore:
+    - ''
+    - '&7&oUnlock the ability to Disguise!' 
+    - '&7&oas the following mobs:'
+    lore:
+    - ''
+    - '&f• &7&oCave Spider'
+    - '&f• &7&oCreeper'
+    - '&f• &7&oEnderman'
+    - '&f• &7&oZombified Piglin'
+    - '&f• &7&oSilverfish'
+    - '&f• &7&oSkeleton'
+    - '&f• &7&oSlime'
+    - '&f• &7&oSpider'
+    - '&f• &7&oZombie'
+    - '&f• &7&oBlaze'
+    - '&f• &7&oSilverfish'
+    - '&f• &7&oMagma Cube'
+    - '&f• &7&oWitch'
+    - '&f• &7&oZombie Villager'
+    - ''
+    - '&4[No Access]'
+  itemspack:
+    material: chest
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'group.itempack'
+    display_name: '&a&lItems Pack'
+    lore:
+    - ''
+    - '&7&oUnlock the ability to Disguise!' 
+    - '&7&oas the following items:'
+    lore:
+    - ''
+    - '&f• &7&oArrow'
+    - '&f• &7&oBoat'
+    - '&f• &7&oEgg'
+    - '&f• &7&oEnder Pearl'
+    - '&f• &7&oEXP Orb'
+    - '&f• &7&oFirework'
+    - '&f• &7&oMinecart'
+    - '&f• &7&oMinecart with Chest'
+    - '&f• &7&oMinecart with Furnace'
+    - '&f• &7&oMinecart with Hopper'
+    - '&f• &7&oMinecart with TNT'
+    - '&f• &7&oPainting'
+    - '&f• &7&oPrimed TNT'
+    - '&f• &7&oSnowball'
+    - ''
+  itemspackno:
+    material: red_stained_glass_pane
+    slot: 14
+    priority: 2
+    display_name: '&c&lItems Pack'
+    lore:
+    - ''
+    - '&7&oUnlock the ability to Disguise!' 
+    - '&7&oas the following items:'
+    lore:
+    - ''
+    - '&f• &7&oArrow'
+    - '&f• &7&oBoat'
+    - '&f• &7&oEgg'
+    - '&f• &7&oEnder Pearl'
+    - '&f• &7&oEXP Orb'
+    - '&f• &7&oFirework'
+    - '&f• &7&oMinecart'
+    - '&f• &7&oMinecart with Chest'
+    - '&f• &7&oMinecart with Furnace'
+    - '&f• &7&oMinecart with Hopper'
+    - '&f• &7&oMinecart with TNT'
+    - '&f• &7&oPainting'
+    - '&f• &7&oPrimed TNT'
+    - '&f• &7&oSnowball'
+    - ''
+    - '&4[No Access]'
+  chicken:
+    material: hdb-336
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.chicken.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lChicken'
+    lore:
+    - ''
+    - '&7&oAccess to the Chicken Disguise!'
+    - ''
+  chickenno:
+    material: red_stained_glass_pane
+    slot: 15
+    priority: 2
+    display_name: '&c&lChicken'
+    lore:
+    - ''
+    - '&7&oAccess to the Chicken Disguise!'
+    - ''
+    - '&4[No Access]'
+  cow:
+    material: hdb-335
+    slot: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.cow.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lCow'
+    lore:
+    - ''
+    - '&7&oAccess to the Cow Disguise!'
+    - ''
+  cowno:
+    material: red_stained_glass_pane
+    slot: 16
+    priority: 2
+    display_name: '&c&lCow'
+    lore:
+    - ''
+    - '&7&oAccess to the Cow Disguise!'
+    - ''
+    - '&4[No Access]'
+  mooshroom:
+    material: hdb-339
+    slot: 19
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.mushroom_cow.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lMooshroom Cow'
+    lore:
+    - ''
+    - '&7&oAccess to the Mooshroom Cow Disguise!'
+    - ''
+  mooshroomno:
+    material: red_stained_glass_pane
+    slot: 19
+    priority: 2
+    display_name: '&c&lMooshroom Cow'
+    lore:
+    - ''
+    - '&7&oAccess to the Mooshroom Cow Disguise!'
+    - ''
+    - '&4[No Access]'
+  donkey:
+    material: hdb-25295
+    slot: 20
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.donkey.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lDonkey'
+    lore:
+    - ''
+    - '&7&oAccess to the Donkey Disguise!'
+    - ''
+  donkeyno:
+    material: red_stained_glass_pane
+    slot: 20
+    priority: 2
+    display_name: '&c&lDonkey'
+    lore:
+    - ''
+    - '&7&oAccess to the Donkey Disguise!'
+    - ''
+    - '&4[No Access]'
+  horse:
+    material: hdb-1154
+    slot: 21
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.horse.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lHorse'
+    lore:
+    - ''
+    - '&7&oAccess to the Horse Disguise!'
+    - ''
+  horseno:
+    material: red_stained_glass_pane
+    slot: 21
+    priority: 2
+    display_name: '&c&lHorse'
+    lore:
+    - ''
+    - '&7&oAccess to the Horse Disguise!'
+    - ''
+    - '&4[No Access]'
+  mule:
+    material: hdb-3918
+    slot: 22
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.mule.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lMule'
+    lore:
+    - ''
+    - '&7&oAccess to the Mule Disguise!'
+    - ''
+  muleno:
+    material: red_stained_glass_pane
+    slot: 22
+    priority: 2
+    display_name: '&c&lMule'
+    lore:
+    - ''
+    - '&7&oAccess to the Mule Disguise!'
+    - ''
+    - '&4[No Access]'
+  snowman:
+    material: hdb-342
+    slot: 23
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.snowman.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lSnowman'
+    lore:
+    - ''
+    - '&7&oAccess to the Snowman Disguise!'
+    - ''
+  snowmanno:
+    material: red_stained_glass_pane
+    slot: 23
+    priority: 2
+    display_name: '&c&lSnowman'
+    lore:
+    - ''
+    - '&7&oAccess to the Snowman Disguise!'
+    - ''
+    - '&4[No Access]'
+  pig:
+    material: hdb-13173
+    slot: 24
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.pig.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lPig'
+    lore:
+    - ''
+    - '&7&oAccess to the Pig Disguise!'
+    - ''
+  pigno:
+    material: red_stained_glass_pane
+    slot: 24
+    priority: 2
+    display_name: '&c&lPig'
+    lore:
+    - ''
+    - '&7&oAccess to the Pig Disguise!'
+    - ''
+    - '&4[No Access]'
+  sheep:
+    material: hdb-334
+    slot: 25
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.sheep.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lSheep'
+    lore:
+    - ''
+    - '&7&oAccess to the Sheep Disguise!'
+    - ''
+  sheepno:
+    material: red_stained_glass_pane
+    slot: 25
+    priority: 2
+    display_name: '&c&lSheep'
+    lore:
+    - ''
+    - '&7&oAccess to the Sheep Disguise!'
+    - ''
+    - '&4[No Access]'
+  squid:
+    material: hdb-12237
+    slot: 28
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.squid.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lSquid'
+    lore:
+    - ''
+    - '&7&oAccess to the Squid Disguise!'
+    - ''
+  squidno:
+    material: red_stained_glass_pane
+    slot: 28
+    priority: 2
+    display_name: '&c&lSquid'
+    lore:
+    - ''
+    - '&7&oAccess to the Squid Disguise!'
+    - ''
+    - '&4[No Access]'
+  villager:
+    material: hdb-81626
+    slot: 29
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.villager.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lVillager'
+    lore:
+    - ''
+    - '&7&oAccess to the Villager Disguise!'
+    - ''
+  villagerno:
+    material: red_stained_glass_pane
+    slot: 29
+    priority: 2
+    display_name: '&c&lVillager'
+    lore:
+    - ''
+    - '&7&oAccess to the Villager Disguise!'
+    - ''
+    - '&4[No Access]'
+  wolf:
+    material: hdb-626
+    slot: 30
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.wolf.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lWolf'
+    lore:
+    - ''
+    - '&7&oAccess to the Wolf Disguise!'
+    - ''
+  wolfno:
+    material: red_stained_glass_pane
+    slot: 30
+    priority: 2
+    display_name: '&c&lWolf'
+    lore:
+    - ''
+    - '&7&oAccess to the Wolf Disguise!'
+    - ''
+    - '&4[No Access]'
+  parrot:
+    material: hdb-49659
+    slot: 31
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.parrot.setVariant.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lParrot'
+    lore:
+    - ''
+    - '&7&oAccess to the Parrot Disguise!'
+    - ''
+  parrotno:
+    material: red_stained_glass_pane
+    slot: 31
+    priority: 2
+    display_name: '&c&lParrot'
+    lore:
+    - ''
+    - '&7&oAccess to the Parrot Disguise!'
+    - ''
+    - '&4[No Access]'
+  bat:
+    material: hdb-63922
+    slot: 32
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.bat.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lBat'
+    lore:
+    - ''
+    - '&7&oAccess to the Bat Disguise!'
+    - ''
+  batno:
+    material: red_stained_glass_pane
+    slot: 32
+    priority: 2
+    display_name: '&c&lBat'
+    lore:
+    - ''
+    - '&7&oAccess to the Bat Disguise!'
+    - ''
+    - '&4[No Access]'
+  undeadhorse:
+    material: hdb-2913
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.zombie_horse.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lUndead Horse'
+    lore:
+    - ''
+    - '&7&oAccess to the Undead Horse Disguise!'
+    - ''
+  undeadhorseno:
+    material: red_stained_glass_pane
+    slot: 33
+    priority: 2
+    display_name: '&c&lUndead Horse'
+    lore:
+    - ''
+    - '&7&oAccess to the Undead Horse Disguise!'
+    - ''
+    - '&4[No Access]'
+  irongolem:
+    material: hdb-81656
+    slot: 34
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.iron_golem.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lIron Golem'
+    lore:
+    - ''
+    - '&7&oAccess to the Iron Golem Disguise!'
+    - ''
+  irongolemno:
+    material: red_stained_glass_pane
+    slot: 34
+    priority: 2
+    display_name: '&c&lIron Golem'
+    lore:
+    - ''
+    - '&7&oAccess to the Iron Golem Disguise!'
+    - ''
+    - '&4[No Access]'
+  rabbit:
+    material: hdb-74255
+    slot: 37
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.rabbit.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lRabbit'
+    lore:
+    - ''
+    - '&7&oAccess to the Rabbit Disguise!'
+    - ''
+  rabbitno:
+    material: red_stained_glass_pane
+    slot: 37
+    priority: 2
+    display_name: '&c&lRabbit'
+    lore:
+    - ''
+    - '&7&oAccess to the Rabbit Disguise!'
+    - ''
+    - '&4[No Access]'
+  polarbear:
+    material: hdb-13104
+    slot: 38
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.polarbear.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lPolar Bear'
+    lore:
+    - ''
+    - '&7&oAccess to the Polar Bear Disguise!'
+    - ''
+  polarbearno:
+    material: red_stained_glass_pane
+    slot: 38
+    priority: 2
+    display_name: '&c&lPolar Bear'
+    lore:
+    - ''
+    - '&7&oAccess to the Polar Bear Disguise!'
+    - ''
+    - '&4[No Access]'
+  llama:
+    material: hdb-63388
+    slot: 39
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.llama.setcolor.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lLlama'
+    lore:
+    - ''
+    - '&7&oAccess to the Llama Disguise!'
+    - ''
+  llamano:
+    material: red_stained_glass_pane
+    slot: 39
+    priority: 2
+    display_name: '&c&lLlama'
+    lore:
+    - ''
+    - '&7&oAccess to the Llama Disguise!'
+    - ''
+    - '&4[No Access]'
+  cavespider:
+    material: hdb-55302
+    slot: 40
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.cave_spider.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lCave Spider'
+    lore:
+    - ''
+    - '&7&oAccess to the Cave Spider Disguise!'
+    - ''
+  cavespiderno:
+    material: red_stained_glass_pane
+    slot: 40
+    priority: 2
+    display_name: '&c&lCave Spider'
+    lore:
+    - ''
+    - '&7&oAccess to the Cave Spider Disguise!'
+    - ''
+    - '&4[No Access]'
+  creeper:
+    material: creeper_head
+    slot: 41
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.creeper.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lCreeper'
+    lore:
+    - ''
+    - '&7&oAccess to the Creeper Disguise!'
+    - ''
+  creeperno:
+    material: red_stained_glass_pane
+    slot: 41
+    priority: 2
+    display_name: '&c&lCreeper'
+    lore:
+    - ''
+    - '&7&oAccess to the Creeper Disguise!'
+    - ''
+    - '&4[No Access]'
+  enderman:
+    material: hdb-78475
+    slot: 42
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.enderman.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lEnderman'
+    lore:
+    - ''
+    - '&7&oAccess to the Enderman Disguise!'
+    - ''
+  endermanno:
+    material: red_stained_glass_pane
+    slot: 42
+    priority: 2
+    display_name: '&c&lEnderman'
+    lore:
+    - ''
+    - '&7&oAccess to the Enderman Disguise!'
+    - ''
+    - '&4[No Access]'
+  zombifiedpiglin:
+    material: hdb-37253
+    slot: 43
+    priority: 1
+    view_requirement:
+      requirements:
+        access:
+          type: has permission
+          permission: 'libsdisguises.disguise.zombified_piglin.setSelfDisguiseVisible.setHideHeldItemFromSelf'
+    display_name: '&a&lZombified Piglin'
+    lore:
+    - ''
+    - '&7&oAccess to the Zombified Piglin Disguise!'
+    - ''
+  zombiefiedpiglinno:
+    material: red_stained_glass_pane
+    slot: 43
+    priority: 2
+    display_name: '&c&lZombified Piglin'
+    lore:
+    - ''
+    - '&7&oAccess to the Zombified Piglin Disguise!'
+    - ''
+    - '&4[No Access]'
+  blue:
+    material: BLUE_STAINED_GLASS_PANE
+    slots: [0, 8, 45]
+    display_name: '&l'
+  light_blue:
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots: [1-7, 9, 17, 18, 26, 27, 35, 36, 44, 46-48, 50-52]
+    display_name: '&l'
+  back:
+    material: barrier
+    slot: 49
+    display_name: '&c&lBack'
+    click_commands:
+    - "[openguimenu] perks"
+  next_page:
+    material: hdb-9871
+    slot: 53
+    display_name: '&a&lNext Page'
+    click_commands:
+    - "[openguimenu] disguises2"

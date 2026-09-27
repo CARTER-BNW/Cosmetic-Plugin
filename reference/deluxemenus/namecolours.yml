@@ -1,0 +1,414 @@
+menu_title: 'Name Colours'
+size: 36
+
+items:
+  dark_green:
+    material: name_tag
+    slot: 10
+    priority: 1
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        access:
+          type: string equals
+          input: '%luckperms_has_permission_namecolor.color.darkgreen%'
+          output: 'yes'
+          optional: true
+        access2:
+          type: string equals
+          input: '%luckperms_inherits_permission_namecolor.color.darkgreen%'
+          output: 'yes'
+          optional: true
+    display_name: '&a&lDark Green'
+    lore:
+    - ''
+    - '&7&oAccess to the &2&oDark Green Name Colour'
+    - ''
+  dark_greenno:
+    material: red_stained_glass_pane
+    slot: 10
+    priority: 2
+    display_name: '&c&lDark Green'
+    lore:
+    - ''
+    - '&7&oAccess to the &2&oDark Green Name Colour'
+    - ''
+    - '&4[No Access]'
+  light_green:
+    material: name_tag
+    slot: 11
+    priority: 1
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        access:
+          type: string equals
+          input: '%luckperms_has_permission_namecolor.color.lightgreen%'
+          output: 'yes'
+          optional: true
+        access2:
+          type: string equals
+          input: '%luckperms_inherits_permission_namecolor.color.lightgreen%'
+          output: 'yes'
+          optional: true
+    display_name: '&a&lLight Green'
+    lore:
+    - ''
+    - '&7&oAccess to the &a&oLight Green Name Colour'
+    - ''
+  light_greenno:
+    material: red_stained_glass_pane
+    slot: 11
+    priority: 2
+    display_name: '&c&lLight Green'
+    lore:
+    - ''
+    - '&7&oAccess to the &a&oLight Green Name Colour'
+    - ''
+    - '&4[No Access]'
+  cyan:
+    material: name_tag
+    slot: 12
+    priority: 1
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        access:
+          type: string equals
+          input: '%luckperms_has_permission_namecolor.color.darkaqua%'
+          output: 'yes'
+          optional: true
+        access2:
+          type: string equals
+          input: '%luckperms_inherits_permission_namecolor.color.darkaqua%'
+          output: 'yes'
+          optional: true
+    display_name: '&a&lCyan'
+    lore:
+    - ''
+    - '&7&oAccess to the &3&oCyan Name Colour'
+    - ''
+  cyanno:
+    material: red_stained_glass_pane
+    slot: 12
+    priority: 2
+    display_name: '&c&lCyan'
+    lore:
+    - ''
+    - '&7&oAccess to the &3&oCyan Name Colour'
+    - ''
+    - '&4[No Access]'
+  pink:
+    material: name_tag
+    slot: 13
+    priority: 1
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        access:
+          type: string equals
+          input: '%luckperms_has_permission_namecolor.color.pink%'
+          output: 'yes'
+          optional: true
+        access2:
+          type: string equals
+          input: '%luckperms_inherits_permission_namecolor.color.pink%'
+          output: 'yes'
+          optional: true
+    display_name: '&a&lPink'
+    lore:
+    - ''
+    - '&7&oAccess to the &d&oPink Name Colour'
+    - ''
+  pinkno:
+    material: red_stained_glass_pane
+    slot: 13
+    priority: 2
+    display_name: '&c&lPink'
+    lore:
+    - ''
+    - '&7&oAccess to the &d&oPink Name Colour'
+    - ''
+    - '&4[No Access]'
+  gold:
+    material: name_tag
+    slot: 14
+    priority: 1
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        access:
+          type: string equals
+          input: '%luckperms_has_permission_namecolor.color.gold%'
+          output: 'yes'
+          optional: true
+        access2:
+          type: string equals
+          input: '%luckperms_inherits_permission_namecolor.color.gold%'
+          output: 'yes'
+          optional: true
+    display_name: '&a&lGold'
+    lore:
+    - ''
+    - '&7&oAccess to the &6&oGold Name Colour'
+    - ''
+  goldno:
+    material: red_stained_glass_pane
+    slot: 14
+    priority: 2
+    display_name: '&c&lGold'
+    lore:
+    - ''
+    - '&7&oAccess to the &6&oGold Name Colour'
+    - ''
+    - '&4[No Access]'
+  aqua:
+    material: name_tag
+    slot: 15
+    priority: 1
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        access:
+          type: string equals
+          input: '%luckperms_has_permission_namecolor.color.aqua%'
+          output: 'yes'
+          optional: true
+        access2:
+          type: string equals
+          input: '%luckperms_inherits_permission_namecolor.color.aqua%'
+          output: 'yes'
+          optional: true
+    display_name: '&a&lAqua'
+    lore:
+    - ''
+    - '&7&oAccess to the &b&oAqua Name Colour'
+    - ''
+  aquano:
+    material: red_stained_glass_pane
+    slot: 15
+    priority: 2
+    display_name: '&a&lAqua'
+    lore:
+    - ''
+    - '&7&oAccess to the &b&oAqua Name Colour'
+    - ''
+    - '&4[No Access]'
+  blue:
+    material: name_tag
+    slot: 16
+    priority: 1
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        access:
+          type: string equals
+          input: '%luckperms_has_permission_namecolor.color.blue%'
+          output: 'yes'
+          optional: true
+        access2:
+          type: string equals
+          input: '%luckperms_inherits_permission_namecolor.color.blue%'
+          output: 'yes'
+          optional: true
+    display_name: '&a&lBlue'
+    lore:
+    - ''
+    - '&7&oAccess to the &9&oBlue Name Colour'
+    - ''
+  blueno:
+    material: red_stained_glass_pane
+    slot: 16
+    priority: 2
+    display_name: '&c&lBlue'
+    lore:
+    - ''
+    - '&7&oAccess to the &9&oBlue Name Colour'
+    - ''
+    - '&4[No Access]'
+  lightred:
+    material: name_tag
+    slot: 19
+    priority: 1
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        access:
+          type: string equals
+          input: '%luckperms_has_permission_namecolor.color.lightred%'
+          output: 'yes'
+          optional: true
+        access2:
+          type: string equals
+          input: '%luckperms_inherits_permission_namecolor.color.lightred%'
+          output: 'yes'
+          optional: true
+    display_name: '&a&lLight Red'
+    lore:
+    - ''
+    - '&7&oAccess to the &c&oLight Red Name Colour'
+    - ''
+  lightredno:
+    material: red_stained_glass_pane
+    slot: 19
+    priority: 2
+    display_name: '&c&lLight Red'
+    lore:
+    - ''
+    - '&7&oAccess to the &c&oLight Red Name Colour'
+    - ''
+    - '&4[No Access]'
+  dark_blue:
+    material: name_tag
+    slot: 20
+    priority: 1
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        access:
+          type: string equals
+          input: '%luckperms_has_permission_namecolor.color.darkblue%'
+          output: 'yes'
+          optional: true
+        access2:
+          type: string equals
+          input: '%luckperms_inherits_permission_namecolor.color.darkblue%'
+          output: 'yes'
+          optional: true
+    display_name: '&a&lDark Blue'
+    lore:
+    - ''
+    - '&7&oAccess to the &1&oDark Blue Name Colour'
+    - ''
+  darkblueno:
+    material: red_stained_glass_pane
+    slot: 20
+    priority: 2
+    display_name: '&c&lDark Blue'
+    lore:
+    - ''
+    - '&7&oAccess to the &1&oDark Blue Name Colour'
+    - ''
+    - '&4[No Access]'
+  purple:
+    material: name_tag
+    slot: 21
+    priority: 1
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        access:
+          type: string equals
+          input: '%luckperms_has_permission_namecolor.color.purple%'
+          output: 'yes'
+          optional: true
+        access2:
+          type: string equals
+          input: '%luckperms_inherits_permission_namecolor.color.purple%'
+          output: 'yes'
+          optional: true
+    display_name: '&a&lPurple'
+    lore:
+    - ''
+    - '&7&oAccess to the &5&oPurple Name Colour'
+    - ''
+  purpleno:
+    material: red_stained_glass_pane
+    slot: 21
+    priority: 2
+    display_name: '&c&lPurple'
+    lore:
+    - ''
+    - '&7&oAccess to the &5&oPurple Name Colour'
+    - ''
+    - '&4[No Access]'
+  black:
+    material: name_tag
+    slot: 22
+    priority: 1
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        access:
+          type: string equals
+          input: '%luckperms_has_permission_namecolor.color.black%'
+          output: 'yes'
+          optional: true
+        access2:
+          type: string equals
+          input: '%luckperms_inherits_permission_namecolor.color.black%'
+          output: 'yes'
+          optional: true
+    display_name: '&a&lBlack'
+    lore:
+    - ''
+    - '&7&oAccess to the &0&oBlack Name Colour'
+    - ''
+  blackno:
+    material: red_stained_glass_pane
+    slot: 22
+    priority: 2
+    display_name: '&c&lBlack'
+    lore:
+    - ''
+    - '&7&oAccess to the &0&oBlack Name Colour'
+    - ''
+    - '&4[No Access]'
+  yellow:
+    material: name_tag
+    slot: 23
+    priority: 1
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        access:
+          type: string equals
+          input: '%luckperms_has_permission_namecolor.color.yellow%'
+          output: 'yes'
+          optional: true
+        access2:
+          type: string equals
+          input: '%luckperms_inherits_permission_namecolor.color.yellow%'
+          output: 'yes'
+          optional: true
+    display_name: '&a&lYellow'
+    lore:
+    - ''
+    - '&7&oAccess to the &e&oYellow Name Colour'
+    - ''
+  yellowno:
+    material: red_stained_glass_pane
+    slot: 23
+    priority: 2
+    display_name: '&c&lYellow'
+    lore:
+    - ''
+    - '&7&oAccess to the &e&oYellow Name Colour'
+    - ''
+    - '&4[No Access]'
+  blueglass:
+    material: BLUE_STAINED_GLASS_PANE
+    slots: [0, 8, 27, 35]
+    display_name: '&l'
+  light_blue:
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots: [1-7, 9, 17, 18, 26, 28-30, 32-34]
+    display_name: '&l'
+  back:
+    material: barrier
+    slot: 31
+    display_name: '&c&lBack'
+    click_commands:
+    - "[openguimenu] perks"

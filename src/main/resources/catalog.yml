@@ -1,0 +1,25 @@
+# Cosmetic catalogue. Generate from the DeluxeMenus YAMLs with:  python tools/dm2catalog.py ...
+# Prices >= 999999 are treated as "TODO: set price" placeholders and warned about on load.
+#
+# categories:
+#   name_colours:
+#     name: "<green><bold>Name Colours"
+#     icon: NAME_TAG                        # a Material, or head:<base64 texture>
+#     hub-slot: 11                          # slot in the hub menu (-1 = next free)
+#     lore: ["<gray>Colour your name in chat"]
+#     sort: 0
+#     items:
+#       namecolour_dark_green:
+#         name: "<dark_green><bold>Dark Green"
+#         icon: NAME_TAG
+#         lore: ["<gray>Access to the Dark Green name colour"]
+#         price: 150                        # omit for display-only
+#         permissions: [namecolor.color.darkgreen]   # owned = has ALL of these; granted on purchase
+#         purchase-commands:
+#           console: []                     # placeholders: %player% %uuid% %item% %txn%
+#           player: []
+#         use-commands:
+#           player: ["namecolor darkgreen"] # optional; shown as "Click to use" once owned
+#         sort: 10
+#         hidden: false                     # hidden items only show once owned
+categories: {}

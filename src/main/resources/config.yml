@@ -1,0 +1,42 @@
+# CosmeticPlugin configuration.
+# Text uses MiniMessage: https://docs.papermc.io/adventure/minimessage/format
+
+# The player command that opens the shop. Change `name` if it clashes with an existing command.
+open-command:
+  name: cosmetics
+  aliases: [cosmetic, skyshop]
+
+# The physical SkyCoin item. Only items carrying the plugin's hidden tag count as coins.
+# material / name / lore are how a coin LOOKS, not how it is recognised.
+coin:
+  material: SUNFLOWER
+  name: "<gold><bold>SkyCoin"
+  lore:
+    - "<gray>Spend at <yellow>/cosmetics"
+    - "<dark_gray>Tradeable"
+  glint: true
+  version: 1              # bump only if the tag format ever changes
+  give-overflow: queue    # queue | drop   (coins that do not fit in the inventory)
+  count-offhand: false
+
+# Recognise coins that existed before this plugin. /skycoins convertlegacy re-mints them as tagged coins.
+legacy-coins:
+  enabled: false
+  matchers:
+    - type: material-name       # material + display name, colour codes stripped
+      material: SUNFLOWER
+      name-plain: "SkyCoin"
+    # - type: nexo-id           # Nexo custom item id (read from the item's nexo:id tag)
+    #   id: skycoin
+
+database:
+  file: data.db               # relative to plugins/CosmeticPlugin/
+
+gui:
+  unaffordable-style: lore    # lore | red-glass
+
+# How ownership permissions are granted on purchase.
+# auto = LuckPerms API when present, otherwise console `lp user <name> permission set <node> true`
+permission-grant: auto        # auto | luckperms-api | console
+
+debug: false
