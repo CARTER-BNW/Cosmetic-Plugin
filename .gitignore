@@ -26,3 +26,17 @@ secrets*
 artifacts/
 dist/
 build/
+
+# Java / Gradle / Maven (build/ already ignored above; keep gradle-wrapper.jar committed)
+.gradle/
+target/
+out/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Local Paper test server - never commit
+run/
