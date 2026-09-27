@@ -41,3 +41,8 @@ Format: Symptom / Cause / Fix. Add an entry the moment a trap is found (`/gotcha
 - **Symptom:** `Could not load purchases for <player>` with a NullPointerException every join.
 - **Cause:** `Map.put(k, v)` returns the PREVIOUS value, so `map.put(k, newSet()).addAll(...)` dereferenced null.
 - **Fix:** build the set first, then put. Caught only because the bot actually joined the server.
+
+## Claude Bash tool collapses doubled backslashes inside heredocs
+- **Symptom:** a Python/Java snippet written via `cat <<'EOF'` ends up with `\r` or `\g` where the source had `\\r`; Windows paths in generated docs come out mangled (a CR appeared inside STATUS.md).
+- **Cause:** the tool rewrites `\\` to `\` before bash sees the command, even inside quoted heredocs.
+- **Fix:** anything containing backslashes goes through the Write/Edit tools, or build them in code (`chr(92)`); prefer forward slashes in docs.
